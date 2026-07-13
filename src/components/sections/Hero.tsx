@@ -35,7 +35,7 @@ export function Hero() {
         <motion.h1 variants={item} className="mt-6 font-display text-5xl font-bold leading-[1.05] sm:text-6xl md:text-7xl">
           Hi, I&apos;m <span className="text-gradient">Samy Aissi</span>
           <br />
-          Software Engineer
+          Software Developer
         </motion.h1>
 
         <motion.p variants={item} className="mx-auto mt-6 max-w-xl text-lg text-muted">
