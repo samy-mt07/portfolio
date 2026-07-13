@@ -33,7 +33,7 @@ export function Hero() {
         </motion.span>
 
         <motion.h1 variants={item} className="mt-6 font-display text-5xl font-bold leading-[1.05] sm:text-6xl md:text-7xl">
-          Hi, I&apos;m <span className="text-gradient">Alex Rivera</span>
+          Hi, I&apos;m <span className="text-gradient">Samy Aissi</span>
           <br />
           Software Engineer
         </motion.h1>
@@ -57,7 +57,7 @@ export function Hero() {
 
         <motion.div variants={item} className="mt-8 flex items-center justify-center gap-4">
           <a
-            href="https://github.com/yourname"
+            href="https://github.com/samy-mt07"
             target="_blank"
             rel="noreferrer"
             aria-label="GitHub"
@@ -66,7 +66,7 @@ export function Hero() {
             <FiGithub size={18} />
           </a>
           <a
-            href="https://linkedin.com/in/yourname"
+            href="https://www.linkedin.com/in/aissi-samy-6338ab322/"
             target="_blank"
             rel="noreferrer"
             aria-label="LinkedIn"

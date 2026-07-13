@@ -10,8 +10,8 @@ export function Resume() {
     <main className="mx-auto max-w-3xl px-6 pb-28 pt-36">
       <div className="flex flex-wrap items-center justify-between gap-4">
         <div>
-          <h1 className="font-display text-3xl font-bold">Alex Rivera</h1>
-          <p className="mt-1 text-muted">Software Engineer</p>
+          <h1 className="font-display text-3xl font-bold">Samy Aissi</h1>
+          <p className="mt-1 text-muted">Software Developer</p>
         </div>
         <GradientButton href="/resume.pdf" icon={<FiDownload />}>
           Download PDF

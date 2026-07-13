@@ -33,7 +33,7 @@ export function Navbar() {
           }}
           className="font-display text-lg font-semibold tracking-tight"
         >
-          A<span className="text-gradient">R</span>
+          A<span className="text-gradient">S</span>
         </a>
 
         <ul className="hidden items-center gap-1 md:flex">
