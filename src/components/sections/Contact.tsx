@@ -6,10 +6,10 @@ import { GlassCard } from '@/components/ui/GlassCard';
 import { GradientButton } from '@/components/ui/GradientButton';
 
 const details = [
-  { icon: FiMail, label: 'hello@yourdomain.dev', href: 'mailto:hello@yourdomain.dev' },
+  { icon: FiMail, label: 'aissisamy@outlook.com', href: 'mailto:aissisamy@outlook.com' },
   { icon: FiMapPin, label: 'Montréal, QC · Open to remote', href: undefined },
-  { icon: FiGithub, label: 'github.com/yourname', href: 'https://github.com/yourname' },
-  { icon: FiLinkedin, label: 'linkedin.com/in/yourname', href: 'https://linkedin.com/in/yourname' },
+  { icon: FiGithub, label: 'github.com/samy-mt07', href: 'https://github.com/samy-mt07' },
+  { icon: FiLinkedin, label: 'https://www.linkedin.com/in/aissi-samy-6338ab322/', href: 'https://www.linkedin.com/in/aissi-samy-6338ab322/' },
 ];
 
 export function Contact() {
@@ -100,7 +100,7 @@ export function Contact() {
                       required
                       rows={5}
                       className="w-full resize-none rounded-xl border border-border bg-white/5 px-4 py-3 text-sm outline-none transition-colors focus:border-accent"
-                      placeholder="What are you working on?"
+                      placeholder="THISE SECTION ISN'T WORKING FOR NOW , PLEASE CONTACT ME DIRECTLY VIA EMAIL"
                     />
                   </label>
                   <GradientButton type="submit" className="w-full justify-center" disabled={sending}>

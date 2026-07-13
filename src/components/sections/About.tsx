@@ -23,13 +23,13 @@ export function About() {
           >
             <GlassCard className="h-full p-8">
               <p className="text-muted leading-relaxed">
-                I&apos;m a software engineer who likes taking products from a rough idea to something
+                I&apos;m a software developer  who likes taking products from a rough idea to something
                 people actually rely on. I care most about the parts that are easy to skip: how a
                 system behaves under real load, how a codebase reads six months later, and whether an
                 interface still makes sense at 2am during an incident.
               </p>
               <p className="mt-4 text-muted leading-relaxed">
-                Outside of shipping features, I spend time mentoring newer engineers, contributing to
+                Outside of shipping features, contributing to
                 a couple of open-source tools, and slowly working through a personal reading list on
                 distributed systems.
               </p>
