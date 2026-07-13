@@ -1,17 +1,17 @@
 import { FiGithub, FiLinkedin, FiMail, FiTwitter } from 'react-icons/fi';
 
 const socials = [
-  { icon: FiGithub, href: 'https://github.com/yourname', label: 'GitHub' },
-  { icon: FiLinkedin, href: 'https://linkedin.com/in/yourname', label: 'LinkedIn' },
+  { icon: FiGithub, href: 'https://github.com/samy-mt07', label: 'GitHub' },
+  { icon: FiLinkedin, href: 'https://www.linkedin.com/in/aissi-samy-6338ab322/', label: 'LinkedIn' },
   { icon: FiTwitter, href: 'https://twitter.com/yourname', label: 'Twitter' },
-  { icon: FiMail, href: 'mailto:hello@yourdomain.dev', label: 'Email' },
+  { icon: FiMail, href: 'mailto:aissisamy@outlook.com', label: 'Email' },
 ];
 
 export function Footer() {
   return (
     <footer className="border-t border-border/60 px-6 py-10">
       <div className="mx-auto flex max-w-5xl flex-col items-center gap-6 sm:flex-row sm:justify-between">
-        <p className="font-mono text-xs text-muted">© {new Date().getFullYear()} Alex Rivera. All rights reserved.</p>
+        <p className="font-mono text-xs text-muted">© {new Date().getFullYear()} Samy Aissi. All rights reserved.</p>
 
         <div className="flex items-center gap-3">
           {socials.map(({ icon: Icon, href, label }) => (

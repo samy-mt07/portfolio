@@ -23,7 +23,7 @@ export function LoadingScreen() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
           >
-            A<span className="text-gradient">R</span>
+            A<span className="text-gradient">S</span>
           </motion.div>
         </motion.div>
       )}

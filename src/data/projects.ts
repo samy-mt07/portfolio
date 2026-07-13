@@ -7,25 +7,25 @@ import type { Project } from '@/types';
  */
 export const projects: Project[] = [
   {
-    id: 'orbit-realtime-dashboard',
-    title: 'Orbit — Realtime Ops Dashboard',
+    id: 'FocusTasks-realtime-dashboard',
+    title: 'FocusTasks - RealTime Task Management Dashboard',
     description:
       'A realtime infrastructure monitoring dashboard with sub-100ms metric streaming and anomaly alerts.',
     longDescription:
       'Orbit ingests metrics from distributed services over WebSockets and renders live, animated charts capable of holding 50k+ data points without dropping frames. Built to help on-call engineers spot anomalies before they become incidents.',
     image: '/projects/orbit-cover.svg',
-    technologies: ['React', 'TypeScript', 'WebSockets', 'D3.js', 'Node.js', 'Redis'],
+    technologies: ['React', 'JavaScript XML', 'WebSockets', 'D3.js', 'Node.js', 'Tailwind'],
     category: 'Web',
-    github: 'https://github.com/yourname/orbit-dashboard',
-    live: 'https://orbit-demo.yourdomain.dev',
+    github: 'https://github.com/samy-mt07/FlowTrack',
+    live: 'https://focustasks.app/',
     caseStudy: '',
     featured: true,
     status: 'Live',
-    date: '2025-11-02',
+    date: '2026-07-11',
     tags: ['realtime', 'dashboard', 'observability'],
     challenges: [
       'Rendering tens of thousands of live points without blocking the main thread',
-      'Keeping WebSocket reconnection seamless during network flaps',
+      'Keep the trak of time and tasks & the productivity of the user in real-time without losing data',
     ],
     solutions: [
       'Offloaded chart math to a Web Worker and batched DOM updates with requestAnimationFrame',
@@ -47,7 +47,7 @@ export const projects: Project[] = [
     github: 'https://github.com/yourname/lumen',
     live: 'https://lumen-demo.yourdomain.dev',
     featured: true,
-    status: 'Live',
+    status: 'In Progress',
     date: '2025-06-15',
     tags: ['ai', 'editor', 'productivity'],
     challenges: ['Keeping suggestion latency low enough to feel inline, not disruptive'],
@@ -80,8 +80,8 @@ export const projects: Project[] = [
     category: 'Backend',
     github: 'https://github.com/yourname/atlas-gateway',
     featured: false,
-    status: 'Live',
-    date: '2024-09-20',
+    status: 'In Progress',
+    date: '2025-09-20',
     tags: ['infrastructure', 'api', 'golang'],
   },
   {
@@ -95,8 +95,8 @@ export const projects: Project[] = [
     category: 'Tooling',
     github: 'https://github.com/yourname/forge-cli',
     featured: false,
-    status: 'Archived',
-    date: '2024-01-05',
+    status: 'In Progress',
+    date: '2025-01-05',
     tags: ['cli', 'developer-tools', 'open-source'],
   },
 ];
