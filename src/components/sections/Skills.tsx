@@ -7,17 +7,19 @@ import {
   SiTailwindcss,
   SiNodedotjs,
   SiPython,
-  SiGo,
-  SiGraphql,
+  SiSwift,
   SiPostgresql,
-  SiRedis,
-  SiMongodb,
+  SiPfsense,
   SiDocker,
-  SiKubernetes,
+  SiDotnet,
   SiVercel,
   SiGit,
-  SiFigma,
+  SiN8N,
+  SiClaude,
 } from 'react-icons/si';
+import { FaLinux } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
+import { VscVscodeInsiders } from "react-icons/vsc";
 import { FiMessageCircle, FiUsers, FiTarget, FiCode, FiCloud } from 'react-icons/fi';
 import type { IconType } from 'react-icons';
 import { skills } from '@/data/skills';
@@ -33,20 +35,22 @@ const iconMap: Record<string, IconType> = {
   SiTailwindcss,
   SiNodedotjs,
   SiPython,
-  SiGo,
-  SiGraphql,
+  FaLinux,
+  SiSwift,
   SiPostgresql,
-  SiRedis,
-  SiMongodb,
+  VscVscodeInsiders,
+  SiPfsense,
   SiDocker,
-  SiKubernetes,
+  SiDotnet,
   SiVercel,
   SiGit,
-  SiFigma,
+  IoLogoJavascript,
   FiMessageCircle,
   FiUsers,
   FiTarget,
   FiCloud,
+  SiN8N,
+  SiClaude,
 };
 
 const categories: (SkillCategory | 'All')[] = [
