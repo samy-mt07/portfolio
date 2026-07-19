@@ -10,6 +10,8 @@ import { PageTransition } from '@/components/layout/PageTransition';
 import { Home } from '@/pages/Home';
 import { Resume } from '@/pages/Resume';
 import { NotFound } from '@/pages/NotFound';
+import { Analytics } from '@vercel/analytics/react';
+
 
 function AnimatedRoutes() {
   const location = useLocation();
@@ -54,6 +56,7 @@ export default function App() {
       <AnimatedRoutes />
       <Footer />
       <BackToTop />
+      <Analytics />
     </ThemeProvider>
   );
 }
